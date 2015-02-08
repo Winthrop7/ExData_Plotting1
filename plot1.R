@@ -1,10 +1,9 @@
-##
 
 ## Plotting the Histogram:
 ##
 ## First we'll source the script that retrieves and packages the data, PackedData.R
 
-source("PackedData.R")
+source("PowerData.R")
 
 
 HistogramPlot <- function() {

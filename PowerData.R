@@ -1,8 +1,3 @@
-## Getting and cleaning the data:
-## To ready the data for its use in the four required plots, we must retrieve 
-## the zip file from the designated web location, unzip the file, and pack
-## the data in a data frame that can be manipulated by the plotting scripts.
-
 PowerData <- function(){
   
   # Assign the designated url to DataUrl
@@ -16,7 +11,7 @@ PowerData <- function(){
   
   # Unzip the file and assign it to a data frame.      
   PowerData <- read.table(unz("household_power_consumption.zip", filename="household_power_consumption.txt"), 
-                   sep = ";", header = T, na.strings = "?", stringsAsFactors=F)
+                          sep = ";", header = T, na.strings = "?", stringsAsFactors=F)
   
   # Use strptime to prepare the time information in the file and add it to PowerData
   

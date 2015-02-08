@@ -1,6 +1,6 @@
 # Making multiple plots of the data and presenting them in a determined order.
 #
-# First we'll source the script that retrieves and packages the data, PackedData.R
+# First we'll source the script that retrieves and packages the data, PowerData.R
 
 source("PowerData.R")
 

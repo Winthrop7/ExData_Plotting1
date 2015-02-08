@@ -1,7 +1,7 @@
 
 ## Plotting the Histogram:
 ##
-## First we'll source the script that retrieves and packages the data, PackedData.R
+## First we'll source the script that retrieves and packages the data, PowerData.R
 
 source("PowerData.R")
 
